@@ -8,6 +8,39 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        .product{
+
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            object-fit: cover;
+        }
+
+        .product h4{
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+            color: black;
+        }
+
+        .product h5{
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        #featured > div.row.mx-auto.container-fluid > nav > ul > li:nth-child(n) > a{
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+        }
+        #featured > div.row.mx-auto.container-fluid > nav > ul > li:nth-child(n):hover > a{
+            background-color: #86e6fe;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
 
@@ -31,84 +64,29 @@
         </div>
     </section>
 
-    
    <section id="featured" class="my-5 pb-5">
-    <div class="container text-center mt-5 py-5">
-        <h2>SHOP HIJABS</h2>
-        <hr class="mx-auto">
+    <div class="container  mt-5 py-5">
+        <h2>Palestine</h2>
+        <hr>
         <p></p>
     </div>
-    <div class="row mx-auto container-fluid">
-        <div onlclick="window.location.href='sproduct.html';" class="product text-center col-lg-3 col-md-4 col-12 " onclick="window.location.href='sproduct.html';">
-            <img class="img-fluid mb-3" src="img/img/products/prod1/main.webp" alt="">
-                <h2 class="p-name">Putra Pink Satin Crinkled </h2>
-                <h4 class="p-price"> Rs.699</h4>
-                <button class="buy-btn">Add to Cart</button>
-        </div>
-        <div class="product text-center col-lg-3 col-md-4 col-12 ">
-            <img class="img-fluid mb-3" src="img/img/products/prod2/main.webp" alt="">
-                <h2 class="p-name">GrayBlack</h2>
-                <h4 class="p-price">  Rs.399 <strike>Rs.599</strike></h4>
-                <button class="buy-btn">Add to Cart</button>
-        </div>
-        <div class="product text-center col-lg-3 col-md-4 col-12 ">
-            <img class="img-fluid mb-3" src="img/img/products/prod3/main.webp" alt="">
-                <h3 class="p-name">Twilight Garden</h3>
-                <h4 class="p-price"> Rs.299</h4>
-                <button class="buy-btn">Add to Cart</button>
-        </div>
-        <div class="product text-center col-lg-3 col-md-4 col-12 ">
-            <img class="img-fluid mb-3" src="img/img/products/prod4/main.webp" alt="">
-                <h2 class="p-name">Purpalia</h2>
-                <h4 class="p-price">Rs.299</h4>
-                <button class="buy-btn">Add to Cart</button>
-        </div>
-        <div class="product text-center col-lg-3 col-md-4 col-12 ">
-            <img class="img-fluid mb-3" src="img/img/products/prod5/main.jpg" alt="">
-                <h2 class="p-name">Gurgi Butti Textured</h2>
-                <h4 class="p-price"> Rs.399 <strike>Rs.599</strike></h4>
-                <button class="buy-btn">Add to Cart</button>
-        </div>
-        <div class="product text-center col-lg-3 col-md-4 col-12 ">
-            <img class="img-fluid mb-3" src="img/img/products/prod6/main.jpg" alt="">
-                <h2 class="p-name">Wazir Khan Satin Crinkled</h2>
-                <h4 class="p-price">Rs.299</h4>
-                <button class="buy-btn">Add to Cart</button>
-        </div>
-        <div class="product text-center col-lg-3 col-md-4 col-12 ">
-            <img class="img-fluid mb-3" src="img/img/products/prod7/main.jpg" alt="">
-                <h2 class="p-name">Hassan II Lavender</h2>
-                <h4 class="p-price">Rs.499</h4>
-                <button class="buy-btn">Add to Cart</button>
-        </div>
-        <div class="product text-center col-lg-3 col-md-4 col-12 ">
-            <img class="img-fluid mb-3" src="img/img/products/prod8/main.jpg" alt="">
-                <h2 class="p-name">Hassan II Black Luxe Foil</h2>
-                <h4 class="p-price">Rs.599 <strike>Rs.899</strike></h4>
-                <button class="buy-btn">Add to Cart</button>
-        </div>
-        <div class="product text-center col-lg-3 col-md-4 col-12 ">
-            <img class="img-fluid mb-3" src="img/img/products/prod9/main.jpg" alt="">
-                <h2 class="p-name">Sheikh Zayed Offwhite Premium Brasso</h2>
-                <h4 class="p-price">Rs.298</h4>
-                <button class="buy-btn">Add to Cart</button>
-        </div>
-        <div class="product text-center col-lg-3 col-md-4 col-12 ">
-            <img class="img-fluid mb-3" src="img/img/products/prod10/main.jpg" alt="">
-                <h2 class="p-name">Sheikh Zayed Black Premium Brasso</h2>
-                <h4 class="p-price">Rs.250</h4>
-                <button class="buy-btn">Add to Cart</button>
-        </div>
-        <div class="product text-center col-lg-3 col-md-4 col-12 ">
+    <div class="row mx-auto container">
+        <div onlclick="window.location.href='pp.html';" class="product text-center col-lg-3 col-md-4 col-12 " onclick="window.location.href='pp.html';">
             <img class="img-fluid mb-3" src="img/img/products/prod11/main.jpg" alt="">
-                <h2 class="p-name">Palestine Instant Hijab</h2>
+                <h5 class="p-name">Palestine Instant Hijab</h5>
                 <h4 class="p-price">Rs.350</h4>
                 <button class="buy-btn">Add to Cart</button>
         </div>
         <div class="product text-center col-lg-3 col-md-4 col-12 ">
-            <img class="img-fluid mb-3" src="img/img/products/prod12/main.jpg" alt="">
-                <h2 class="p-name">Dark Forest -Printed Crinkled Chiffon with Lurex</h2>
-                <h4 class="p-price">Rs.999</h4>
+            <img class="img-fluid mb-3" src="img/img/banner1/1.jpg" alt="">
+                <h5 class="p-name">Roses Palestine Tote</h5>
+                <h4 class="p-price">Rs. 650.00</h4>
+                <button class="buy-btn">Add to Cart</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12 ">
+            <img class="img-fluid mb-3" src="img/img/banner1/7.jpg" alt="">
+                <h5 class="p-name">Roses Palestine Tote</h5>
+                <h4 class="p-price">Rs. 650.00</h4>
                 <button class="buy-btn">Add to Cart</button>
         </div>
 
@@ -132,8 +110,8 @@
     </div>
    </section>
 
-   <footer class="section-p1">
-    <div class="col container-fluid mx-auto pt-5">
+   <footer class="section-p1" >
+    <div class="col container mx-auto pt-5">
         <img class="logo" src="img/logo2.png" alt="">
         <h4>Contact</h4>
         <p><strong>Adress: </strong> 562 Welington Road, Street 32, San Francisco</p> 

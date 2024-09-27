@@ -34,3 +34,16 @@ smallimg[3].onclick = function(){
 smallimg[4].onclick = function(){
     MainImg.src = smallimg[4].src;
 }
+
+// Script for account
+const container = document.getElementById('container');
+const registerBtn = document.getElementById('register');
+const loginBtn = document.getElementById('login');
+
+registerBtn.addEventListener('click', () => {
+    container.classList.add("active");
+});
+
+loginBtn.addEventListener('click', () => {
+    container.classList.remove("active");
+});
