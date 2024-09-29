@@ -16,7 +16,7 @@ h1{
     font-size: 70px;
     font-weight: 500;
     padding: 10px;
-    color: #fff;
+    color: white;
 }
 
 h2{
@@ -299,6 +299,88 @@ hr {
 /* Cart Page*/
 
 
+#cart {
+  overflow-x: auto;
+}
+#cart table{
+  margin: 30px;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
+
+#cart table img{
+  width: 70px;
+}
+
+#cart table td:nth-child(1){
+  width: 100px;
+  text-align: center;
+}
+
+#cart table td:nth-child(2){
+  width: 150px;
+  text-align: center;
+}
+
+#cart table td:nth-child(3){
+  width: 250px;
+  text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+  width: 150px;
+  text-align: center;
+}
+
+#cart table td:nth-child(5) input{
+  width: 70px;
+  padding: 10px 5px 10px 15px;
+}
+
+#cart table thead{
+  border: 1px solid #000000;
+  background-color: #86e6fe;
+  border-left: none;
+  border-right: none;
+}
+
+#cart table thead td{
+  font-weight: 700;
+  text-decoration: uppercase;
+  font-size: 13px;
+  padding: 18px 0;
+}
+
+#cart table tbody tr td{
+  padding-top: 15px;
+} 
+
+#cart table tbody td{
+  font-size: 13px;
+}
+
+/* About 
+
+#page-head .page-head{
+  display: flex;
+  align-items: center;  
+  margin-bottom: 50px;
+}
+
+#page-head img{
+  width: 50%;
+  height: auto;
+}
+
+#page-head div{
+  padding-left: 40px;
+}
+/*
+
 /* footer*/
 footer {
     background-color: #73c4d8;
@@ -537,4 +619,11 @@ footer {
     footer .col {
       margin: 10px 0;
     }
+    footer .install .row img {
+      height: 10vh;
+      width: 50%;
+      border: none;
+      border-radius: 16px;
+  }
+
   }
